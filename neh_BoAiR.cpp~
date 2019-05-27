@@ -1,16 +1,12 @@
 #include <iostream>
-//#include <conio.h>
+#include <conio.h>
 #include <fstream>
 #include <stdio.h>
 #include <algorithm>
-//#include <Windows.h>
+#include <Windows.h>
 #include <queue>
 
 using namespace std;
-
-
-
-
 
 int n;  //ilosc zadan
 int m;  //ilosc maszyn
@@ -49,9 +45,6 @@ struct Cmax_up	//przeciazenie operatora porownania zadan
 	}
 };
 
-
-
-
 priority_queue<Machine, vector<Machine>, Cmax_up> kolejka;
 priority_queue<Machine, vector<Machine>, Cmax_up> temp_queue;
 
@@ -75,27 +68,11 @@ ostream& operator << (ostream& wyjscie, Machine& zadanie)  //przeciazenie operat
 	return wyjscie;
 }
 
-
-void show(priority_queue<Machine, vector<Machine>, Cmax_up> kolejka )
-{
-    Machine current_top;
-    while (kolejka.size()>0)
-    {
-        current_top = kolejka.top();
-        cout << current_top << endl;
-        kolejka.pop();
-
-
-    }
-    cout << "THAT WAS SHOW" << endl;
-}
-
-
 void wczytaj()
 {
 	fstream plik;
 
-	plik.open("NEH1.DAT", ios::in);
+	plik.open("NEH1.dat", ios::in);
 
 	if (plik.good() == false)
 	{
@@ -125,28 +102,11 @@ void wczytaj()
 		cout << k;
 		tab[i] = k;
 		kolejka.push(k);
-
-		//show(kolejka); // wypisywanie kolejki
 	}
-	cout << "To było wczytywanie" << endl;
 	plik.close();
 	//delete[] k.machine_time;
 	//delete[] tab;
 };
-
-Machine init_element(Machine &element)
-{
-    element.machine_time = new int[m];
-
-    element.Cmax = 1000;
-    element.job_nr = 999;
-    for (int i = 0; i < m; ++i)
-    {
-        element.machine_time[i] = 1;
-    }
-
-    return element;
-}
 
 void order() {	//wyswietlanie zadan w kolejnosci po Cmax
 
@@ -196,36 +156,19 @@ void order() {	//wyswietlanie zadan w kolejnosci po Cmax
 	}*/
 
 int main() {
-    Machine artificial;
+
 	Machine aa;
 	wczytaj();
-	//show(kolejka); //wypisywanie kolejki
 	cout << endl;
 	order();
-	cout << "TO BYŁ ORDER " << endl;
+	cout << endl;
 	kolejka.pop();
 	aa = kolejka.top();
 	cout << aa;
 	//ss = kolejka.top();
 	//Neh();
 	cout << endl;
-
-	init_element(artificial);
-	cout << artificial << endl;
-
-	//show(kolejka);
-
 	//cout << ss;
 	getchar();
-	//system("CLS"); // check if cp-paste code works...
-
-#ifdef WIN32
-
-	system("cls");
-
-#else
-
-	system("clear");
-
-#endif
+	system("CLS");
 }

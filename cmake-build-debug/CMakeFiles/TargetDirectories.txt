@@ -1,0 +1,3 @@
+/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/cmake-build-debug/CMakeFiles/BoAiR.dir
+/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/cmake-build-debug/CMakeFiles/edit_cache.dir
