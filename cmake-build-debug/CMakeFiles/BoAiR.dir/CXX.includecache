@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/neh_BoAiR.cpp
+/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/Neh_heuristic.cpp
 iostream
 -
 fstream
 -
-stdio.h
+vector
 -
 algorithm
--
-queue
 -
 
