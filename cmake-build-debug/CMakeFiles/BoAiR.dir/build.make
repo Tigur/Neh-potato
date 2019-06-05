@@ -57,27 +57,27 @@ include CMakeFiles/BoAiR.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BoAiR.dir/flags.make
 
-CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o: CMakeFiles/BoAiR.dir/flags.make
-CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o: ../neh_BoAiR.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o -c "/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/neh_BoAiR.cpp"
+CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o: CMakeFiles/BoAiR.dir/flags.make
+CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o: ../Neh_heuristic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o -c "/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/Neh_heuristic.cpp"
 
-CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/neh_BoAiR.cpp" > CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.i
+CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/Neh_heuristic.cpp" > CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.i
 
-CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/neh_BoAiR.cpp" -o CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.s
+CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/Neh_heuristic.cpp" -o CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.s
 
 # Object files for target BoAiR
 BoAiR_OBJECTS = \
-"CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o"
+"CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o"
 
 # External object files for target BoAiR
 BoAiR_EXTERNAL_OBJECTS =
 
-BoAiR: CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o
+BoAiR: CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o
 BoAiR: CMakeFiles/BoAiR.dir/build.make
 BoAiR: CMakeFiles/BoAiR.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BoAiR"

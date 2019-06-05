@@ -76,7 +76,7 @@ ostream& operator << (ostream& wyjscie, Machine& zadanie)  //przeciazenie operat
 }
 
 
-void show(priority_queue<Machine, vector<Machine>, Cmax_up> kolejka )
+void show(priority_queue<Machine, vector<Machine>, Cmax_up> kolejka ) // DEBUG func
 {
     Machine current_top;
     while (kolejka.size()>0)
@@ -134,7 +134,7 @@ void wczytaj()
 	//delete[] tab;
 };
 
-Machine init_element(Machine &element)
+Machine init_element(Machine &element) // DEBUG func
 {
     element.machine_time = new int[m];
 
@@ -196,10 +196,10 @@ void order() {	//wyswietlanie zadan w kolejnosci po Cmax
 	}*/
 
 int main() {
-    Machine artificial;
+    Machine artificial; // DEBUG var
 	Machine aa;
 	wczytaj();
-	//show(kolejka); //wypisywanie kolejki
+	//show(kolejka); //  DEBUG wypisywanie kolejki
 	cout << endl;
 	order();
 	cout << "TO BYŁ ORDER " << endl;

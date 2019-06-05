@@ -3,7 +3,7 @@ project(BoAiR)               # Create project "simple_example"
 set(CMAKE_CXX_STANDARD 14)            # Enable c++14 standard
 
 # Add main.cpp file of project root directory as source file
-set(SOURCE_FILES neh_BoAiR.cpp)
+set(SOURCE_FILES Neh_heuristic.cpp)
 
 # Add executable target with source files listed in SOURCE_FILES variable
 add_executable(BoAiR ${SOURCE_FILES})

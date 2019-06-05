@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o"
+  "CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o"
   "BoAiR.pdb"
   "BoAiR"
 )

@@ -123,32 +123,32 @@ BoAiR/fast:
 	$(MAKE) -f CMakeFiles/BoAiR.dir/build.make CMakeFiles/BoAiR.dir/build
 .PHONY : BoAiR/fast
 
-neh_BoAiR.o: neh_BoAiR.cpp.o
+Neh_heuristic.o: Neh_heuristic.cpp.o
 
-.PHONY : neh_BoAiR.o
+.PHONY : Neh_heuristic.o
 
 # target to build an object file
-neh_BoAiR.cpp.o:
-	$(MAKE) -f CMakeFiles/BoAiR.dir/build.make CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.o
-.PHONY : neh_BoAiR.cpp.o
+Neh_heuristic.cpp.o:
+	$(MAKE) -f CMakeFiles/BoAiR.dir/build.make CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.o
+.PHONY : Neh_heuristic.cpp.o
 
-neh_BoAiR.i: neh_BoAiR.cpp.i
+Neh_heuristic.i: Neh_heuristic.cpp.i
 
-.PHONY : neh_BoAiR.i
+.PHONY : Neh_heuristic.i
 
 # target to preprocess a source file
-neh_BoAiR.cpp.i:
-	$(MAKE) -f CMakeFiles/BoAiR.dir/build.make CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.i
-.PHONY : neh_BoAiR.cpp.i
+Neh_heuristic.cpp.i:
+	$(MAKE) -f CMakeFiles/BoAiR.dir/build.make CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.i
+.PHONY : Neh_heuristic.cpp.i
 
-neh_BoAiR.s: neh_BoAiR.cpp.s
+Neh_heuristic.s: Neh_heuristic.cpp.s
 
-.PHONY : neh_BoAiR.s
+.PHONY : Neh_heuristic.s
 
 # target to generate assembly for a file
-neh_BoAiR.cpp.s:
-	$(MAKE) -f CMakeFiles/BoAiR.dir/build.make CMakeFiles/BoAiR.dir/neh_BoAiR.cpp.s
-.PHONY : neh_BoAiR.cpp.s
+Neh_heuristic.cpp.s:
+	$(MAKE) -f CMakeFiles/BoAiR.dir/build.make CMakeFiles/BoAiR.dir/Neh_heuristic.cpp.s
+.PHONY : Neh_heuristic.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BoAiR"
 	@echo "... edit_cache"
-	@echo "... neh_BoAiR.o"
-	@echo "... neh_BoAiR.i"
-	@echo "... neh_BoAiR.s"
+	@echo "... Neh_heuristic.o"
+	@echo "... Neh_heuristic.i"
+	@echo "... Neh_heuristic.s"
 .PHONY : help
 
 

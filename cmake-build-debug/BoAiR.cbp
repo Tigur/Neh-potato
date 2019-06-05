@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/neh_BoAiR.cpp">
+		<Unit filename="/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/Neh_heuristic.cpp">
 			<Option target="BoAiR"/>
 		</Unit>
 		<Unit filename="/home/resolution/Documents/POważne sprawy/studyjne/studia_2019/sem_letni/Badania_operacyjne_w_AiR/Skrypty/Rob/CMakeLists.txt">
